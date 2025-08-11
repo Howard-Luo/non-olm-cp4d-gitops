@@ -42,6 +42,7 @@ This project aims to automated the Non-OLM installation method for CP4D and Cart
 1. Click [Use this template](https://github.com/new?template_name=non-olm-cp4d-gitops&template_owner=gitops-cp4d) at the right top of this page to create your own repository, then clone it to your local and enter the project directory.
 
 2. Edit the root `values.yaml` to customize namespaces, storage classes, and other parameters.  
+
 If you are using a [Techzone environment](https://techzone.ibm.com/collection/tech-zone-certified-base-images/journey-base-open-shift), most parameters can be left as default.
 
 3. Edit the root `kustomization.yaml` as needed. You can enable or disable any cartridge module by commenting or uncommenting its resource. It is recommended to disable all cartridges at first. Only enable (uncomment) the 3-cartridge resources in `kustomization.yaml` after Software Hub installation is completed and both `1-cluster-scope/` and `2-namespace-scope/` resources have been successfully reconciled.
