@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: cognos-analytics-gitops
+  name: cognos-analytics-gitops-test
   namespace: openshift-gitops
 spec:
   destination:
