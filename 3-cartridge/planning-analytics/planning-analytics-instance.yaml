@@ -10,7 +10,7 @@ spec:
     server: https://kubernetes.default.svc
   source:
     path: ''
-    repoURL: https://gitops-cp4d.github.io/non-olm-cp4d-gitops/repos
+    repoURL: https://Howard-Luo.github.io/non-olm-cp4d-gitops/repos
     targetRevision: 5.2.0+20250604.210250.1608
     chart: planning-analytics-instance
     helm:
