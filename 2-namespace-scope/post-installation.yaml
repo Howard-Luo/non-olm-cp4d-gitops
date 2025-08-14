@@ -13,7 +13,7 @@ spec:
     targetRevision: main
     path: 9-post-installation
     kustomize: {}
-  project: default
+  project: test
   syncPolicy:
     automated:
       prune: true

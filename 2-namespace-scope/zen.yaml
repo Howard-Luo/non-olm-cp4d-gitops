@@ -32,7 +32,7 @@ spec:
           installConfigImageDigest: sha256:f97f1b364a27acfe08b1c80d9ce91c25f07e6005a7ba821abf164c8e38925a04
           installConfigImageName: cpopen/cpd/olm-utils-v3
           releaseVersion: 5.2.0
-  project: default
+  project: test
   syncPolicy:
     automated:
       prune: true
