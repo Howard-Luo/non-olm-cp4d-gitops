@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: rh-cert-manager-gitops
+  name: post-installation
   namespace: openshift-gitops
 spec:
   destination:
